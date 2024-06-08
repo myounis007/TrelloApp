@@ -3,8 +3,8 @@ import 'package:trelloapps/Widgets/custombutton.dart';
 import 'package:trelloapps/Widgets/headingtext.dart';
 import 'package:trelloapps/Widgets/smalltext.dart';
 
-import '../utills/colors.dart';
-import '../utills/constants.dart';
+import '../../utills/colors.dart';
+import '../../utills/constants.dart';
 
 class CopyBoard extends StatefulWidget {
   const CopyBoard({super.key});

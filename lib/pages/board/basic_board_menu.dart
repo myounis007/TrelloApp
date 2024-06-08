@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trelloapps/Widgets/headingtext.dart';
 import 'package:trelloapps/Widgets/smalltext.dart';
 
-import '../utills/colors.dart';
+import '../../utills/colors.dart';
 import 'board_visibility.dart';
 
 class BoardMenu extends StatefulWidget {

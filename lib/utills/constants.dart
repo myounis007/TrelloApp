@@ -1,3 +1,4 @@
+
 const headline = "Move teamwork forward - even on the go";
 const terms =
     "By signing up, you agree to our Terms of service and Privacy Policy";
@@ -39,3 +40,5 @@ const powerups = [
         "Set a limit on your lists and we'll highlight the list if the number of cards in it passes the limit"
   }
 ];
+
+

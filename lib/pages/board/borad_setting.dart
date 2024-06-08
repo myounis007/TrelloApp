@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:trelloapps/Widgets/headingtext.dart';
 import 'package:trelloapps/Widgets/smalltext.dart';
 
-import 'package:trelloapps/board/close.dart';
-import '../Widgets/bluerectangle_square.dart';
-import '../pages/edit_labels.dart';
-import '../utills/colors.dart';
+import 'package:trelloapps/pages/board/close.dart';
+import '../../Widgets/bluerectangle_square.dart';
+import '../edit_labels.dart';
+import '../../utills/colors.dart';
 
 class BoardSettings extends StatefulWidget {
   const BoardSettings({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../Widgets/custombutton.dart';
-import '../Widgets/headingtext.dart';
-import '../Widgets/smalltext.dart';
+import '../../Widgets/custombutton.dart';
+import '../../Widgets/headingtext.dart';
+import '../../Widgets/smalltext.dart';
 
 class Boardwithfloatinbutton extends StatelessWidget {
   const Boardwithfloatinbutton({super.key});

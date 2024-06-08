@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:trelloapps/Widgets/custombutton.dart';
 
-import '../utills/colors.dart';
+import '../../utills/colors.dart';
 
 class CloseBoard extends StatefulWidget {
   const CloseBoard({super.key});

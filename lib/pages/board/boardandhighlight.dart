@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:trelloapps/Widgets/customdrawer.dart';
-import 'package:trelloapps/board/boardwithfloatinbutton.dart';
+import 'package:trelloapps/pages/board/boardwithfloatinbutton.dart';
 
-import '../Widgets/headingtext.dart';
+import '../../Widgets/headingtext.dart';
 
 class BoardAndHighlightPage extends StatefulWidget {
   const BoardAndHighlightPage({super.key});
