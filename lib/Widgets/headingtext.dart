@@ -13,7 +13,7 @@ class HeadingText extends StatelessWidget {
     super.key,
     required this.text,
     this.color,
-    this.fontSize = 25.0,
+    this.fontSize = 20.0,
     this.fontWeight = FontWeight.bold,
     this.textAlign = TextAlign.start,
     this.padding = EdgeInsets.zero,

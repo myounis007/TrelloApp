@@ -1,9 +1,8 @@
+const headline = "Move teamwork forward - \neven on the go";
 
-const headline = "Move teamwork forward - even on the go";
-const terms =
-    "By signing up, you agree to our Terms of service and Privacy Policy";
-    
 const contact = "Contact support";
+const menudescription =
+    ' Get unlimited collaborators with premium.Free Wordspaces can only have up to 10 collaborators. Try Premium now to add as many people as you want';
 const visibilityConfigurations = [
   {
     "type": "Private",
@@ -18,7 +17,7 @@ const visibilityConfigurations = [
   },
 ];
 const defaultDescription =
-    "It's your board's time to shine! Let people know what this board is used for and what they can expect to see";
+    "It's your board's time to shine! Let people know what this board is used for and what they can expect to see.";
 const powerups = [
   {
     "title": "Calendar Power-Up",
@@ -40,5 +39,3 @@ const powerups = [
         "Set a limit on your lists and we'll highlight the list if the number of cards in it passes the limit"
   }
 ];
-
-

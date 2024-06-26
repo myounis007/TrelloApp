@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {
+  const MainScreen({super.key});
+
   @override
   _MainScreenState createState() => _MainScreenState();
 }
@@ -39,9 +41,9 @@ class _MainScreenState extends State<MainScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Main Screen'),
+        title: const Text('Main Screen'),
       ),
-      body: Center(child: Text('Main Screen Content')),
+      body: const Center(child: Text('Main Screen Content')),
       floatingActionButton: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -51,40 +53,40 @@ class _MainScreenState extends State<MainScreen>
                 FloatingActionButton(
                   heroTag: 'createCard',
                   onPressed: () {},
-                  child: Icon(Icons.add_card),
                   tooltip: 'Create Card',
+                  child: const Icon(Icons.add_card),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 FloatingActionButton(
                   heroTag: 'createBoard',
                   onPressed: () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => CreateBoardScreen()),
+                          builder: (context) => const CreateBoardScreen()),
                     );
                   },
-                  child: Icon(Icons.add_box),
                   tooltip: 'Create Board',
+                  child: const Icon(Icons.add_box),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
                 FloatingActionButton(
                   heroTag: 'browseTemplates',
                   onPressed: () {},
-                  child: Icon(Icons.folder_open),
                   tooltip: 'Browse Templates',
+                  child: const Icon(Icons.folder_open),
                 ),
-                SizedBox(height: 10),
+                const SizedBox(height: 10),
               ],
             ),
           FloatingActionButton(
             heroTag: 'expandFab',
             onPressed: _toggleFab,
+            tooltip: 'Expand',
             child: AnimatedIcon(
               icon: AnimatedIcons.menu_close,
               progress: _animation,
             ),
-            tooltip: 'Expand',
           ),
         ],
       ),
@@ -93,6 +95,8 @@ class _MainScreenState extends State<MainScreen>
 }
 
 class CreateBoardScreen extends StatefulWidget {
+  const CreateBoardScreen({super.key});
+
   @override
   _CreateBoardScreenState createState() => _CreateBoardScreenState();
 }
@@ -102,7 +106,7 @@ class _CreateBoardScreenState extends State<CreateBoardScreen> {
 
   void _addList() {
     setState(() {
-      lists.add(ListViewWidget());
+      lists.add(const ListViewWidget());
     });
   }
 
@@ -110,7 +114,7 @@ class _CreateBoardScreenState extends State<CreateBoardScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Create Board'),
+        title: const Text('Create Board'),
       ),
       body: PageView.builder(
         itemCount: lists.length,
@@ -120,20 +124,22 @@ class _CreateBoardScreenState extends State<CreateBoardScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _addList,
-        child: Icon(Icons.add),
         tooltip: 'Add List',
+        child: const Icon(Icons.add),
       ),
     );
   }
 }
 
 class ListViewWidget extends StatelessWidget {
+  const ListViewWidget({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.all(10.0),
+      margin: const EdgeInsets.all(10.0),
       color: Colors.blueAccent,
-      child: Center(
+      child: const Center(
         child: Text(
           'List View',
           style: TextStyle(color: Colors.white, fontSize: 20),

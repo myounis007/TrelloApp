@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:trelloapps/utills/colors.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
@@ -14,7 +15,7 @@ class CustomButton extends StatelessWidget {
     required this.text,
     required this.onPressed,
     this.color,
-    this.textStyle = const TextStyle(color: Colors.white, fontSize: 18),
+    this.textStyle = const TextStyle(color: Colors.white, fontSize: 16),
     this.borderRadius = 8.0,
     this.textColor,
     this.width,
@@ -25,7 +26,7 @@ class CustomButton extends StatelessWidget {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
         backgroundColor: color,
-        
+        side: const BorderSide(width: 1, color: whitecolor),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(borderRadius),
         ),
