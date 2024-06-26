@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
-import 'package:trelloapps/features/landing/bottom_sheet.dart';
+import 'package:trelloapps/screeens/landing/bottom_sheet.dart';
 import 'package:trelloapps/widgets/custombutton.dart';
 
 import 'package:trelloapps/widgets/headingtext.dart';

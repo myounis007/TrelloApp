@@ -1,4 +1,4 @@
-import 'package:trelloapps/features/board/board_object.dart';
+import 'package:trelloapps/screeens/board/board_object.dart';
 
 class BoardListObject {
   String? title;

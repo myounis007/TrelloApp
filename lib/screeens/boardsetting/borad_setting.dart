@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:trelloapps/widgets/headingtext.dart';
 import 'package:trelloapps/widgets/smalltext.dart';
 
-import 'package:trelloapps/features/boardsetting/close.dart';
+import 'package:trelloapps/screeens/boardsetting/close.dart';
 import '../../widgets/bluerectangle_square.dart';
 import '../editlabels/edit_labels.dart';
 import '../../utills/colors.dart';

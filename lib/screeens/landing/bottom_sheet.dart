@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
-import 'package:trelloapps/features/auth/signarguments.dart';
-import 'package:trelloapps/features/auth/signup_trello.dart';
+import 'package:trelloapps/screeens/auth/signarguments.dart';
+import 'package:trelloapps/screeens/auth/signup_trello.dart';
 
 import '../../utills/colors.dart';
 import '../../utills/config.dart';

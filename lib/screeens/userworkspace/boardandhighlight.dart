@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_expandable_fab/flutter_expandable_fab.dart';
-import 'package:trelloapps/features/drawer/customdrawer.dart';
-import 'package:trelloapps/features/boardfloatingbutton/boardwithfloatinbutton.dart';
-import 'package:trelloapps/features/userworkspace/highlights.dart';
+import 'package:trelloapps/screeens/drawer/customdrawer.dart';
+import 'package:trelloapps/screeens/boardfloatingbutton/boardwithfloatinbutton.dart';
+import 'package:trelloapps/screeens/userworkspace/highlights.dart';
 
 import '../floatingactionbutton/custom_floating_button.dart';
 import '../../widgets/headingtext.dart';

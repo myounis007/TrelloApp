@@ -4,7 +4,7 @@ import 'package:boardview/boardview.dart';
 import 'package:boardview/boardview_controller.dart';
 import 'package:flutter/material.dart';
 
-import 'package:trelloapps/features/board/board_object.dart';
+import 'package:trelloapps/screeens/board/board_object.dart';
 import 'package:trelloapps/utills/colors.dart';
 import 'package:trelloapps/utills/config.dart';
 
